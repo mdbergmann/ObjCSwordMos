@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<FlowStudioProjectFile>
+    <FileVersion major="0" minor="1"/>
+    <Project>
+        <Option projectname="Sword"/>
+        <Option autosave="1"/>
+        <Option buildcommand="gg:bin/make -f"/>
+        <Option makefile="Makefile"/>
+        <Option manualmakefile="0"/>
+        <Option quietoutput="1"/>
+        <Option cvscommand="gg:bin/cvs"/>
+        <Option defaulttarget="RELEASE"/>
+        <Option activetarget="DEBUG"/>
+        <Option crossbuild="0"/>
+        <Option crossserver=""/>
+        <Option crosslogin=""/>
+        <Option crossdir=""/>
+        <Target name="RELEASE">
+            <Option type="5"/>
+            <Option execfile="Sword"/>
+            <Option execdir=""/>
+            <Option objectsdir=""/>
+            <Option arguments=""/>
+            <Option depsfile=""/>
+            <Option autodeps="1"/>
+            <Option customcompiler="0"/>
+            <Option customlinker="0"/>
+        </Target>
+        <Target name="DEBUG">
+            <Option type="5"/>
+            <Option execfile="Sword_DEBUG"/>
+            <Option execdir=""/>
+            <Option objectsdir=""/>
+            <Option arguments=""/>
+            <Option depsfile=""/>
+            <Option autodeps="1"/>
+            <Option customcompiler="1"/>
+            <Option customlinker="1"/>
+            <CompilerSettings>
+                <Option cc_predefined="0"/>
+                <Option cc="ppc-morphos-gcc"/>
+                <Option cflags="-g -O0"/>
+                <Option cincludes=""/>
+                <Option cdefines=""/>
+                <Option cxx_predefined="0"/>
+                <Option cxx="ppc-morphos-g++"/>
+                <Option cppflags="-g -O0"/>
+                <Option cppincludes=""/>
+                <Option cppdefines=""/>
+                <Option objcc_predefined="8"/>
+                <Option objcc="ppc-morphos-clang"/>
+                <Option objcflags="-fobjc-runtime=objfw -fconstant-string-class=OBConstantString -g -O0"/>
+                <Option objcincludes="-I/SDK/Frameworks/include"/>
+                <Option objcdefines=""/>
+            </CompilerSettings>
+            <LinkerSettings>
+                <Option linkerpath="ppc-morphos-g++"/>
+                <Option linkerflags="-g"/>
+                <Option linkerlibraries=""/>
+            </LinkerSettings>
+        </Target>
+        <LinkerSettings>
+            <Option linkerpath="ppc-morphos-g++"/>
+            <Option linkerflags=""/>
+            <Option linkerlibraries=""/>
+        </LinkerSettings>
+        <CompilerSettings>
+            <Option cc_predefined="0"/>
+            <Option cc="ppc-morphos-gcc"/>
+            <Option cflags=""/>
+            <Option cincludes=""/>
+            <Option cdefines=""/>
+            <Option cxx_predefined="0"/>
+            <Option cxx="ppc-morphos-g++"/>
+            <Option cppflags=""/>
+            <Option cppincludes=""/>
+            <Option cppdefines=""/>
+            <Option objcc_predefined="8"/>
+            <Option objcc="ppc-morphos-clang"/>
+            <Option objcflags=""/>
+            <Option objcincludes=""/>
+            <Option objcdefines=""/>
+        </CompilerSettings>
+        <FileUnit filepath="dependencies/sword/src/modules/common/bz2comprs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/cipherfil.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/curlftpt.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/curlhttpt.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/encfiltmgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/entriesblk.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/filemgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/ftplib.c">
+            <Option inproject="1"/>
+            <Option filetype="1"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/ftplibftpt.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/ftpparse.c">
+            <Option inproject="1"/>
+            <Option filetype="1"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbffootnotes.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfheadings.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfhtmlhref.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbflatex.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfmorph.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfosis.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfplain.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfredletterwords.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfrtf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfstrongs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfthml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfwebif.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfwordjs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/gbfxhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/greeklexattribs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/comments/hrefcom/hrefcom.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/installmgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/latin1utf8.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/latin1utf16.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/listkey.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/localemgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/lzsscomprs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/markupfiltmgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisenum.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisfootnotes.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisglosses.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisheadings.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osishtmlhref.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osislatex.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osislemma.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osismorph.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osismorphsegmentation.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisosis.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisplain.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisredletterwords.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisreferencelinks.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisrtf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisscripref.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisstrongs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisvariants.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osiswebif.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osiswordjs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisxhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/osisxlit.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/papyriplain.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/genbook/rawgenbook/rawgenbook.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/lexdict/rawld/rawld.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/lexdict/rawld4/rawld4.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/rawstr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/rawstr4.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/texts/rawtext/rawtext.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/texts/rawtext4/rawtext4.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/rawverse.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/rawverse4.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/regex.c">
+            <Option inproject="1"/>
+            <Option filetype="1"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/remotetrans.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/roman.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/rtfhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/rtranspgdrive.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/sapphire.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/scsuutf8.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/stringmgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/strkey.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/swbasicfilter.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/swbuf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/swcacher.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/swcipher.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/swcomprs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/swconfig.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/swfiltermgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/genbook/swgenbook.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/swkey.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/lexdict/swld.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/swlocale.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/swmgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/swmodule.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/swobject.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/swoptfilter.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/swsearchable.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/texts/swtext.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/swversion.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/teihtmlhref.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/teilatex.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/teiplain.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/teirtf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/teixhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlfootnotes.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlgbf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlheadings.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlhtmlhref.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmllatex.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmllemma.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlmorph.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlosis.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlplain.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlrtf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlscripref.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlstrongs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlvariants.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlwebif.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlwordjs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/thmlxhtml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/treekey.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/treekeyidx.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/unicodertf.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/url.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8arabicpoints.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8arshaping.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8bidireorder.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8cantillation.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8greekaccents.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8hebrewpoints.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8html.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8latin1.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8nfc.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8nfkd.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8scsu.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8transliterator.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf8utf16.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/filters/utf16utf8.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/utilstr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/utilfuns/utilxml.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/versekey.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/keys/versetreekey.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/mgr/versificationmgr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/xzcomprs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/zipcomprs.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/lexdict/zld/zld.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/zstr.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/texts/ztext/ztext.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/texts/ztext4/ztext4.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/zverse.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/zverse4.cpp">
+            <Option inproject="1"/>
+            <Option filetype="3"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/bz2comprs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_abbrevs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_calvin.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_catholic.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_catholic2.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_darbyfr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_german.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_kjva.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_leningrad.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_luther.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_lxx.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_mt.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_nrsv.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_nrsva.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_null.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_orthodox.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_segond.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_synodal.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_synodalprot.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/canon_vulg.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/cipherfil.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/curlftpt.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/curlhttpt.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/defs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/echomod.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/encfiltmgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/entriesblk.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/femain.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/filemgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/flatapi.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/ftplib.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/ftplibftpt.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/ftpparse.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbffootnotes.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfheadings.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfhtmlhref.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbflatex.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfmorph.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfosis.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfplain.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfredletterwords.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfrtf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfstrongs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfthml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfwebif.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfwordjs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/gbfxhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/greeklexattribs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/hebrewmcim.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/hrefcom.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/installmgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/latin1utf8.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/latin1utf16.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/listkey.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/localemgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/lzsscomprs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/markupfiltmgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/multimapwdef.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/nullim.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisenum.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisfootnotes.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisglosses.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisheadings.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osishtmlhref.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osislatex.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osislemma.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osismorph.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osismorphsegmentation.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisosis.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisplain.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisredletterwords.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisreferencelinks.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisrtf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisscripref.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisstrongs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisvariants.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osiswebif.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osiswordjs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisxhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/osisxlit.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/papyriplain.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawcom.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawcom4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawfiles.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawgenbook.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawld.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawld4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawstr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawstr4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawtext.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawtext4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawverse.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rawverse4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/remotetrans.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/roman.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rtfhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/rtranspgdrive.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/sapphire.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/scsuutf8.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/stringmgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/strkey.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swbasicfilter.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swbuf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swcacher.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swcipher.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swcom.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swcomprs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swconfig.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swdisp.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swfilter.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swfiltermgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swgenbook.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swinputmeth.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swkey.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swld.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swlocale.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swlog.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swmacs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swmgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swmodule.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swobject.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swoptfilter.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swsearchable.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swtext.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swversion.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/sysdata.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/teihtmlhref.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/teilatex.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/teiplain.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/teirtf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/teixhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlfootnotes.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlgbf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlheadings.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlhtmlhref.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmllatex.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmllemma.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlmorph.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlosis.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlplain.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlrtf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlscripref.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlstrongs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlvariants.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlwebif.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlwordjs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/thmlxhtml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/treekey.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/treekeyidx.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/unicodertf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/untgz.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/url.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8arabicpoints.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8arshaping.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8bidireorder.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8cantillation.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8greekaccents.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8hebrewpoints.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8html.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8latin1.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8nfc.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8nfkd.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8scsu.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8transliterator.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf8utf16.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utf16utf8.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utilstr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/utilxml.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/versekey.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/versetreekey.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/versificationmgr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/xzcomprs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zcom.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zcom4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zconf.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zipcomprs.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zld.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zlib.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zstr.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/ztext.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/ztext4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zverse.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/zverse4.h">
+            <Option inproject="1"/>
+            <Option filetype="2"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/config.h.in">
+            <Option inproject="1"/>
+            <Option filetype="16"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/src/modules/common/lzsscomprs.txt">
+            <Option inproject="1"/>
+            <Option filetype="16"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/SwordAPI.pas">
+            <Option inproject="1"/>
+            <Option filetype="16"/>
+        </FileUnit>
+        <FileUnit filepath="dependencies/sword/include/swversion.h.in">
+            <Option inproject="1"/>
+            <Option filetype="16"/>
+        </FileUnit>
+    </Project>
+</FlowStudioProjectFile>
