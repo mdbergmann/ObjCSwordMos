@@ -6,9 +6,12 @@
 
 -include Makefile.pre
 
-CC = ppc-morphos-gcc
-CXX = ppc-morphos-g++
+CC = ppc-morphos-gcc-12
+CINCLUDES = -Idependencies/sword/include
+CXX = ppc-morphos-g++-12
+CPPINCLUDES = -Idependencies/sword/include
 OBJCC = ppc-morphos-clang
+OBJCINCLUDES = -Idependencies/sword/include
 CFLAGS += -MD -MP
 CPPFLAGS += -MD -MP
 OBJCFLAGS += -MD -MP
@@ -24,13 +27,14 @@ AR=ppc-morphos-ar
 RANLIB=ppc-morphos-ranlib
 
 CLIB_RELEASE = -noixemul
-CC_DEBUG = ppc-morphos-gcc
+CC_DEBUG = ppc-morphos-gcc-9
 CFLAGS_DEBUG = -g -O0
-CXX_DEBUG = ppc-morphos-g++
+CINCLUDES_DEBUG = -Idependencies/sword/include
+CXX_DEBUG = ppc-morphos-g++-9
 CPPFLAGS_DEBUG = -g -O0
+CPPINCLUDES_DEBUG = -Idependencies/sword/include
 OBJCC_DEBUG = ppc-morphos-clang
-OBJCFLAGS_DEBUG = -fobjc-runtime=objfw -fconstant-string-class=OBConstantString -g -O0
-OBJCINCLUDES_DEBUG = -I/SDK/Frameworks/include
+OBJCINCLUDES_DEBUG = -Idependencies/sword/include
 CFLAGS_DEBUG += -MD -MP
 CPPFLAGS_DEBUG += -MD -MP
 OBJCFLAGS_DEBUG += -MD -MP
@@ -46,12 +50,11 @@ SOURCES = dependencies/sword/src/keys/listkey.cpp \
 	dependencies/sword/src/keys/versekey.cpp dependencies/sword/src/keys/versetreekey.cpp \
 	dependencies/sword/src/mgr/curlftpt.cpp dependencies/sword/src/mgr/curlhttpt.cpp \
 	dependencies/sword/src/mgr/encfiltmgr.cpp dependencies/sword/src/mgr/filemgr.cpp \
-	dependencies/sword/src/mgr/ftplibftpt.cpp dependencies/sword/src/mgr/installmgr.cpp \
-	dependencies/sword/src/mgr/localemgr.cpp dependencies/sword/src/mgr/markupfiltmgr.cpp \
-	dependencies/sword/src/mgr/remotetrans.cpp dependencies/sword/src/mgr/rtranspgdrive.cpp \
-	dependencies/sword/src/mgr/stringmgr.cpp dependencies/sword/src/mgr/swcacher.cpp \
-	dependencies/sword/src/mgr/swconfig.cpp dependencies/sword/src/mgr/swfiltermgr.cpp \
-	dependencies/sword/src/mgr/swlocale.cpp dependencies/sword/src/mgr/swmgr.cpp \
+	dependencies/sword/src/mgr/installmgr.cpp dependencies/sword/src/mgr/localemgr.cpp \
+	dependencies/sword/src/mgr/markupfiltmgr.cpp dependencies/sword/src/mgr/remotetrans.cpp \
+	dependencies/sword/src/mgr/rtranspgdrive.cpp dependencies/sword/src/mgr/stringmgr.cpp \
+	dependencies/sword/src/mgr/swcacher.cpp dependencies/sword/src/mgr/swconfig.cpp \
+	dependencies/sword/src/mgr/swfiltermgr.cpp dependencies/sword/src/mgr/swlocale.cpp dependencies/sword/src/mgr/swmgr.cpp \
 	dependencies/sword/src/mgr/swsearchable.cpp dependencies/sword/src/mgr/versificationmgr.cpp \
 	dependencies/sword/src/modules/comments/hrefcom/hrefcom.cpp dependencies/sword/src/modules/common/bz2comprs.cpp \
 	dependencies/sword/src/modules/common/entriesblk.cpp dependencies/sword/src/modules/common/lzsscomprs.cpp \
@@ -108,7 +111,6 @@ SOURCES = dependencies/sword/src/keys/listkey.cpp \
 	dependencies/sword/src/modules/swmodule.cpp dependencies/sword/src/modules/texts/rawtext/rawtext.cpp \
 	dependencies/sword/src/modules/texts/rawtext4/rawtext4.cpp dependencies/sword/src/modules/texts/swtext.cpp \
 	dependencies/sword/src/modules/texts/ztext/ztext.cpp dependencies/sword/src/modules/texts/ztext4/ztext4.cpp \
-	dependencies/sword/src/utilfuns/ftplib.c dependencies/sword/src/utilfuns/ftpparse.c \
 	dependencies/sword/src/utilfuns/regex.c dependencies/sword/src/utilfuns/roman.cpp \
 	dependencies/sword/src/utilfuns/swbuf.cpp dependencies/sword/src/utilfuns/swobject.cpp \
 	dependencies/sword/src/utilfuns/swversion.cpp dependencies/sword/src/utilfuns/url.cpp \
